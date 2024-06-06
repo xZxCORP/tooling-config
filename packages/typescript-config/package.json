@@ -1,0 +1,12 @@
+{
+  "name": "@wheelz/tsconfig",
+  "version": "0.0.1",
+  "exports": {
+    "./tsconfig.app.json": "./tsconfig.app.json",
+    "./tsconfig.package.json": "./tsconfig.package.json"
+  },
+  "scripts": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}

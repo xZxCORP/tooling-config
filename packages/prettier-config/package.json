@@ -1,0 +1,14 @@
+{
+  "name": "@wheelz/prettier-config",
+  "description": "",
+  "version": "0.0.1",
+  "main": "index.json",
+  "exports": {
+    ".": "./index.json"
+  },
+  "scripts": {},
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
