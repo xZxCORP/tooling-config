@@ -1,5 +1,5 @@
 {
-  "name": "@wheelz/eslint-config",
+  "name": "@zcorp/eslint-config",
   "description": "Base ESLint config used by Wheelz apps and packages",
   "version": "1.0.0",
   "exports": {

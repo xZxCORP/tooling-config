@@ -1,5 +1,5 @@
 {
-  "name": "@wheelz/tooling-config",
+  "name": "@zcorp/tooling-config",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,8 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@wheelz/eslint-config": "workspace:*",
-    "@wheelz/prettier-config": "workspace:*",
+    "@zcorp/eslint-config": "workspace:*",
+    "@zcorp/prettier-config": "workspace:*",
     "bumpp": "^9.4.1",
     "eslint": "^8.57.0",
     "prettier": "^3.3.1",

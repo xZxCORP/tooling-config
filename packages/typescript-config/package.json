@@ -1,5 +1,5 @@
 {
-  "name": "@wheelz/tsconfig",
+  "name": "@zcorp/tsconfig",
   "version": "1.0.0",
   "exports": {
     "./tsconfig.app.json": "./tsconfig.app.json",
