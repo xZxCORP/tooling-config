@@ -1,7 +1,7 @@
 {
   "name": "@zcorp/eslint-config",
   "description": "Base ESLint config used by Wheelz apps and packages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "exports": {
     "./app": "./presets/ts_app.js",
     "./package": "./presets/ts_package.js"
