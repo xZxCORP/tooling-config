@@ -11,7 +11,13 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'unicorn'],
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:unicorn/recommended',
+    'plugin:prettier/recommended',
+  ],
+  plugins: ['@typescript-eslint', 'unicorn', 'import', 'prettier', 'simple-import-sort'],
   ignorePatterns: [
     '*.min.*',
     '*.d.ts',
@@ -31,5 +37,8 @@ module.exports = {
     '!.github',
     '!.vscode',
   ],
-  rules: {},
+  rules: {
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
+  },
 }
