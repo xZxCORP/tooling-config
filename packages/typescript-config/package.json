@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "exports": {
     "./tsconfig.app.json": "./tsconfig.app.json",
+    "./tsconfig.react.json": "./tsconfig.react.json",
     "./tsconfig.package.json": "./tsconfig.package.json"
   },
   "scripts": {},
