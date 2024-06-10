@@ -1,6 +1,6 @@
 /**
  * @type {import('eslint').Linter.Config}
  */
-module.exports = {
+export default {
   extends: ['./ts_base.js', './prettier.js'],
 }

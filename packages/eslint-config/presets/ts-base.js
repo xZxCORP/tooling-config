@@ -40,5 +40,6 @@ module.exports = {
   rules: {
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
+    'unicorn/prefer-module': 'off',
   },
 }
