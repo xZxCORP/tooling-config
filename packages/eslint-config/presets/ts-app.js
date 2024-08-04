@@ -3,4 +3,4 @@
  */
 export default {
   extends: ['./ts_base.js', './prettier.js'],
-}
+};

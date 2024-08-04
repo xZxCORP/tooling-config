@@ -3,4 +3,4 @@
  */
 module.exports = {
   extends: ['./ts-base.js', './prettier.js'],
-}
+};

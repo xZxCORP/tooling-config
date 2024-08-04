@@ -19,4 +19,13 @@ module.exports = {
       version: 'detect',
     },
   },
-}
+  rules: {
+    'unicorn/filename-case': [
+      'error',
+      {
+        case: 'pascalCase',
+        ignore: ['^(?!.*.tsx$).*$', '^index.tsx$'],
+      },
+    ],
+  },
+};

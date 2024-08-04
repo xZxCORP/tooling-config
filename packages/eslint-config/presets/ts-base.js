@@ -15,9 +15,8 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:unicorn/recommended',
-    'plugin:prettier/recommended',
   ],
-  plugins: ['@typescript-eslint', 'unicorn', 'prettier', 'simple-import-sort'],
+  plugins: ['@typescript-eslint', 'unicorn', 'simple-import-sort'],
   ignorePatterns: [
     '*.min.*',
     '*.d.ts',
@@ -41,5 +40,7 @@ module.exports = {
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
     'unicorn/prefer-module': 'off',
+    'semi': 'off',
+    'semi-style': 'off',
   },
-}
+};
