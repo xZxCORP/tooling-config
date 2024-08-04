@@ -1,7 +1,7 @@
 {
   "name": "@zcorp/prettier-config",
   "description": "",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.json",
   "exports": {
     ".": "./index.json"
