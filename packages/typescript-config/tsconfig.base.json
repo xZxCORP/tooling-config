@@ -1,25 +1,32 @@
 {
   "compilerOptions": {
-		"target": "ESNext",
+    "target": "ESNext",
     "module": "NodeNext",
-		"lib": ["ESNext"],
-		/* Bundler mode */
-		"moduleResolution": "bundler",
-		"resolveJsonModule": true,
-		"allowImportingTsExtensions": true,
-		/* Linting */
-		"outDir": "./build",
-		"rootDir": "./src",
-		"strict": true,
-		"noFallthroughCasesInSwitch": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"noEmit": true,
-		"isolatedModules": true,
-		"useDefineForClassFields": true,
-		"skipLibCheck": true,
-		"strictNullChecks": true
-	},
+    "lib": ["ESNext"],
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    /* Linting */
+    "outDir": "./build",
+    "rootDir": "./src",
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": true,
+    "experimentalDecorators": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true
+  },
   "ts-node": {
     "swc": true
   }
