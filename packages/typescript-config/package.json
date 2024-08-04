@@ -1,6 +1,6 @@
 {
   "name": "@zcorp/tsconfig",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "exports": {
     "./tsconfig.app.json": "./tsconfig.app.json",
     "./tsconfig.react.json": "./tsconfig.react.json",
