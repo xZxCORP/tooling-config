@@ -37,6 +37,7 @@ module.exports = {
     '!.vscode',
   ],
   rules: {
+    '@typescript-eslint/no-explicit-any': 'off',
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
     'unicorn/prefer-module': 'off',
