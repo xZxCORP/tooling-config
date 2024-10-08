@@ -1,9 +1,14 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "declaration": false,
-    "sourceMap": true,
     "emitDecoratorMetadata": true,
-    "types": ["@types/node"]
+    "module": "NodeNext",
+    "sourceMap": true,
+    "lib": [
+      "es2022"
+    ],
+    "types": [
+      "@types/node"
+    ]
   }
 }

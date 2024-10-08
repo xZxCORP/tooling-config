@@ -1,33 +1,19 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "NodeNext",
-    "lib": ["ESNext"],
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "allowImportingTsExtensions": true,
-    /* Linting */
-    "outDir": "./build",
-    "rootDir": "./src",
-    "strict": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noEmit": true,
-    "isolatedModules": true,
+    /* Base Options: */
+    "esModuleInterop": true,
     "useDefineForClassFields": true,
     "skipLibCheck": true,
-    "strictNullChecks": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "strictPropertyInitialization": true,
-    "experimentalDecorators": true,
-    "strictBindCallApply": true,
-    "strictFunctionTypes": true
+    "target": "es2022",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "emitDecoratorMetadata": true,
   },
-  "ts-node": {
-    "swc": true
-  }
 }
