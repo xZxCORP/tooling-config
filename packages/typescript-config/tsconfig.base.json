@@ -15,5 +15,6 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   },
 }
